@@ -1,0 +1,9 @@
+# Flow-shop deployment-budget pilot
+
+This pilot measures how much time an unchanged local search can use on published instances. It supplies a paired example alongside the source audit. The historical agents' winning programs would be needed to measure their own budget curves.
+
+Use the first two non-development indices in each of `tai20_5.txt`, `tai50_10.txt` and `tai100_20.txt` at CO-Bench data revision `6e561a36254d4315b8c2d155e81a465b634e87e1`. The chosen sizes span a small, middle and larger class within this family. They form a diagnostic sample of six. Use the same solver, processing-time matrix, random seed 0 and run for all three cutoffs. Withhold the header bounds and development map from the solver.
+
+Start with jobs in descending order of total processing time, then construct a permutation by inserting each job at its best position (NEH). Save the first complete answer, including an immediate input-order incumbent. Continue with single-job random insertion and periodic perturbations from the best permutation. Use a single logical CPU per worker. Record the best complete permutation available by 1, 10 and 30 seconds from search start on the same trajectory, using elapsed wall time and reporting CPU time. Exclude input parsing, interpreter startup and independent post-hoc verification from this clock. Preserve the witness and time of its discovery. Independently validate the permutation and compute its makespan with the published evaluator.
+
+The primary observation is the within-instance change in integer makespan between 1, 10 and 30 seconds. Report all six rows, including ties or missed deadlines. The normalized measure is the task's lower bound divided by verified makespan. These checkpoints model an anytime interface. A solver required to return once before a hard deadline needs a separate deployment experiment. This plan was written before observing pilot outcomes.
