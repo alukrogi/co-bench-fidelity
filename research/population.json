@@ -1,0 +1,362 @@
+{
+  "data_revision": "6e561a36254d4315b8c2d155e81a465b634e87e1",
+  "verified_task_files": {
+    "git": 605,
+    "lfs": 249
+  },
+  "excluded": [
+    "Maximal independent set/.DS_Store"
+  ],
+  "totals": {
+    "cases": 6461,
+    "dev": 3257,
+    "test": 3505,
+    "overlap": 301,
+    "groups": 576,
+    "test_groups": 407,
+    "test_input_files": 544
+  },
+  "tasks": {
+    "Aircraft landing": {
+      "cases": 49,
+      "dev": 20,
+      "test": 29,
+      "overlap": 0,
+      "groups": 13,
+      "test_groups": 13,
+      "test_input_files": 13
+    },
+    "Assignment problem": {
+      "cases": 12,
+      "dev": 4,
+      "test": 8,
+      "overlap": 0,
+      "groups": 12,
+      "test_groups": 8,
+      "test_input_files": 8
+    },
+    "Assortment problem": {
+      "cases": 12,
+      "dev": 4,
+      "test": 8,
+      "overlap": 0,
+      "groups": 12,
+      "test_groups": 8,
+      "test_input_files": 8
+    },
+    "Bin packing - one-dimensional": {
+      "cases": 160,
+      "dev": 40,
+      "test": 120,
+      "overlap": 0,
+      "groups": 8,
+      "test_groups": 8,
+      "test_input_files": 8
+    },
+    "Capacitated warehouse location": {
+      "cases": 49,
+      "dev": 12,
+      "test": 37,
+      "overlap": 0,
+      "groups": 49,
+      "test_groups": 37,
+      "test_input_files": 37
+    },
+    "Common due date scheduling": {
+      "cases": 70,
+      "dev": 21,
+      "test": 49,
+      "overlap": 0,
+      "groups": 7,
+      "test_groups": 7,
+      "test_input_files": 7
+    },
+    "Constrained guillotine cutting": {
+      "cases": 3,
+      "dev": 3,
+      "test": 3,
+      "overlap": 3,
+      "groups": 3,
+      "test_groups": 3,
+      "test_input_files": 3
+    },
+    "Constrained non-guillotine cutting": {
+      "cases": 651,
+      "dev": 320,
+      "test": 331,
+      "overlap": 0,
+      "groups": 4,
+      "test_groups": 4,
+      "test_input_files": 4
+    },
+    "Container loading": {
+      "cases": 762,
+      "dev": 380,
+      "test": 382,
+      "overlap": 0,
+      "groups": 9,
+      "test_groups": 9,
+      "test_input_files": 9
+    },
+    "Container loading with weight restrictions": {
+      "cases": 700,
+      "dev": 350,
+      "test": 350,
+      "overlap": 0,
+      "groups": 7,
+      "test_groups": 7,
+      "test_input_files": 7
+    },
+    "Corporate structuring": {
+      "cases": 10,
+      "dev": 5,
+      "test": 5,
+      "overlap": 0,
+      "groups": 10,
+      "test_groups": 5,
+      "test_input_files": 5
+    },
+    "Crew scheduling": {
+      "cases": 49,
+      "dev": 20,
+      "test": 29,
+      "overlap": 0,
+      "groups": 10,
+      "test_groups": 10,
+      "test_input_files": 10
+    },
+    "Equitable partitioning problem": {
+      "cases": 10,
+      "dev": 4,
+      "test": 6,
+      "overlap": 0,
+      "groups": 10,
+      "test_groups": 6,
+      "test_input_files": 6
+    },
+    "Euclidean Steiner problem": {
+      "cases": 242,
+      "dev": 114,
+      "test": 128,
+      "overlap": 0,
+      "groups": 15,
+      "test_groups": 15,
+      "test_input_files": 15
+    },
+    "Flow shop scheduling": {
+      "cases": 120,
+      "dev": 60,
+      "test": 60,
+      "overlap": 0,
+      "groups": 12,
+      "test_groups": 12,
+      "test_input_files": 12
+    },
+    "Generalised assignment problem": {
+      "cases": 84,
+      "dev": 36,
+      "test": 48,
+      "overlap": 0,
+      "groups": 16,
+      "test_groups": 16,
+      "test_input_files": 16
+    },
+    "Graph colouring": {
+      "cases": 30,
+      "dev": 15,
+      "test": 15,
+      "overlap": 0,
+      "groups": 30,
+      "test_groups": 15,
+      "test_input_files": 15
+    },
+    "Hybrid Reentrant Shop Scheduling": {
+      "cases": 1350,
+      "dev": 675,
+      "test": 675,
+      "overlap": 0,
+      "groups": 27,
+      "test_groups": 27,
+      "test_input_files": 27
+    },
+    "Job shop scheduling": {
+      "cases": 80,
+      "dev": 40,
+      "test": 40,
+      "overlap": 0,
+      "groups": 8,
+      "test_groups": 8,
+      "test_input_files": 8
+    },
+    "Maximal independent set": {
+      "cases": 244,
+      "dev": 105,
+      "test": 139,
+      "overlap": 0,
+      "groups": 3,
+      "test_groups": 2,
+      "test_input_files": 139
+    },
+    "Multi-Demand Multidimensional Knapsack problem": {
+      "cases": 810,
+      "dev": 405,
+      "test": 405,
+      "overlap": 0,
+      "groups": 9,
+      "test_groups": 9,
+      "test_input_files": 9
+    },
+    "Multidimensional knapsack problem": {
+      "cases": 325,
+      "dev": 162,
+      "test": 163,
+      "overlap": 0,
+      "groups": 11,
+      "test_groups": 11,
+      "test_input_files": 11
+    },
+    "Open shop scheduling": {
+      "cases": 60,
+      "dev": 30,
+      "test": 30,
+      "overlap": 0,
+      "groups": 6,
+      "test_groups": 6,
+      "test_input_files": 6
+    },
+    "Packing unequal circles": {
+      "cases": 4,
+      "dev": 4,
+      "test": 4,
+      "overlap": 4,
+      "groups": 4,
+      "test_groups": 4,
+      "test_input_files": 4
+    },
+    "Packing unequal circles area": {
+      "cases": 4,
+      "dev": 4,
+      "test": 4,
+      "overlap": 4,
+      "groups": 4,
+      "test_groups": 4,
+      "test_input_files": 4
+    },
+    "Packing unequal rectangles and squares": {
+      "cases": 9,
+      "dev": 9,
+      "test": 9,
+      "overlap": 9,
+      "groups": 6,
+      "test_groups": 6,
+      "test_input_files": 6
+    },
+    "Packing unequal rectangles and squares area": {
+      "cases": 9,
+      "dev": 9,
+      "test": 9,
+      "overlap": 9,
+      "groups": 6,
+      "test_groups": 6,
+      "test_input_files": 6
+    },
+    "Resource constrained shortest path": {
+      "cases": 24,
+      "dev": 12,
+      "test": 12,
+      "overlap": 0,
+      "groups": 24,
+      "test_groups": 12,
+      "test_input_files": 12
+    },
+    "Set covering": {
+      "cases": 87,
+      "dev": 38,
+      "test": 49,
+      "overlap": 0,
+      "groups": 87,
+      "test_groups": 49,
+      "test_input_files": 49
+    },
+    "Set partitioning": {
+      "cases": 59,
+      "dev": 29,
+      "test": 30,
+      "overlap": 0,
+      "groups": 59,
+      "test_groups": 30,
+      "test_input_files": 30
+    },
+    "Travelling salesman problem": {
+      "cases": 272,
+      "dev": 272,
+      "test": 272,
+      "overlap": 272,
+      "groups": 3,
+      "test_groups": 3,
+      "test_input_files": 3
+    },
+    "Uncapacitated warehouse location": {
+      "cases": 15,
+      "dev": 7,
+      "test": 8,
+      "overlap": 0,
+      "groups": 15,
+      "test_groups": 8,
+      "test_input_files": 8
+    },
+    "Unconstrained guillotine cutting": {
+      "cases": 26,
+      "dev": 13,
+      "test": 13,
+      "overlap": 0,
+      "groups": 26,
+      "test_groups": 13,
+      "test_input_files": 13
+    },
+    "Vehicle routing: period routing": {
+      "cases": 10,
+      "dev": 5,
+      "test": 5,
+      "overlap": 0,
+      "groups": 10,
+      "test_groups": 5,
+      "test_input_files": 5
+    },
+    "p-median - capacitated": {
+      "cases": 20,
+      "dev": 10,
+      "test": 10,
+      "overlap": 0,
+      "groups": 1,
+      "test_groups": 1,
+      "test_input_files": 1
+    },
+    "p-median - uncapacitated": {
+      "cases": 40,
+      "dev": 20,
+      "test": 20,
+      "overlap": 0,
+      "groups": 40,
+      "test_groups": 20,
+      "test_input_files": 20
+    }
+  },
+  "mis_groups": {
+    "er_large_test": {
+      "all": 16,
+      "dev": 5,
+      "test": 11
+    },
+    "er_test": {
+      "all": 128,
+      "dev": 0,
+      "test": 128
+    },
+    "er_valid": {
+      "all": 100,
+      "dev": 100,
+      "test": 0
+    }
+  }
+}

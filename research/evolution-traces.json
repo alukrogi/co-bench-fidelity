@@ -1,0 +1,59 @@
+{
+  "eoh_default": {
+    "maximize": false,
+    "calls_including_connectivity_check": 65,
+    "parent_prose_reappeared": false,
+    "all_surviving_descriptions_equal_code": true,
+    "selected_score": 0.015625,
+    "has_finalize": false
+  },
+  "eoh_maximize": {
+    "maximize": true,
+    "calls_including_connectivity_check": 65,
+    "parent_prose_reappeared": false,
+    "all_surviving_descriptions_equal_code": true,
+    "selected_score": 1.0,
+    "has_finalize": false
+  },
+  "reevo_earliest_distinct_scores": {
+    "scored_candidates": 4,
+    "requests_by_role": {
+      "generation": 1,
+      "short_reflection": 10
+    },
+    "requests_by_model": {
+      "openai/o3-mini": 1,
+      "gpt-4o-mini": 10
+    },
+    "population_entries": 8,
+    "unique_solution_ids": 4,
+    "error": "write() argument must be str, not list"
+  },
+  "reevo_current_distinct_scores": {
+    "scored_candidates": 64,
+    "requests_by_role": {
+      "generation": 61,
+      "short_reflection": 600,
+      "long_reflection": 60
+    },
+    "requests_by_model": {
+      "openai/o3-mini": 121,
+      "gpt-4o-mini": 600
+    },
+    "population_entries": 68,
+    "unique_solution_ids": 64,
+    "error": null
+  },
+  "reevo_current_tied_scores": {
+    "scored_candidates": 64,
+    "requests_by_role": {
+      "generation": 61
+    },
+    "requests_by_model": {
+      "openai/o3-mini": 61
+    },
+    "population_entries": 68,
+    "unique_solution_ids": 64,
+    "error": null
+  }
+}

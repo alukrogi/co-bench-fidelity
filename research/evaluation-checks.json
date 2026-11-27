@@ -1,0 +1,86 @@
+{
+  "shared_dev_test_instances": {
+    "Constrained guillotine cutting": 3,
+    "Packing unequal circles": 4,
+    "Packing unequal circles area": 4,
+    "Packing unequal rectangles and squares": 9,
+    "Packing unequal rectangles and squares area": 9,
+    "Travelling salesman problem": 272
+  },
+  "tsp": {
+    "labels": {
+      "tsp10000_test_concorde.txt": {
+        "instances": 16,
+        "min_length": 5160.749865220341,
+        "max_length": 5271.549518476074,
+        "min_ref_ratio": 0.013614592777409331,
+        "max_ref_ratio": 0.013906893741097008,
+        "within_1e-10_of_reference": 0
+      },
+      "tsp1000_test_concorde.txt": {
+        "instances": 128,
+        "min_length": 22.610650093362246,
+        "max_length": 23.732688373571094,
+        "min_ref_ratio": 0.9999999999999977,
+        "max_ref_ratio": 1.000000000000003,
+        "within_1e-10_of_reference": 128
+      },
+      "tsp500_test_concorde.txt": {
+        "instances": 128,
+        "min_length": 16.128213788207706,
+        "max_length": 17.091676920010702,
+        "min_ref_ratio": 0.9999999999999986,
+        "max_ref_ratio": 1.0000000000000013,
+        "within_1e-10_of_reference": 128
+      }
+    },
+    "tsp10000_weight_in_release": 0.3333333333333333,
+    "tsp10000_weight_per_instance": 0.058823529411764705
+  },
+  "scheduling": {
+    "Flow shop scheduling": {
+      "held_out": 60,
+      "distinct_bounds": 60,
+      "file_upper_would_score_below_.99": 43
+    },
+    "Job shop scheduling": {
+      "held_out": 40,
+      "distinct_bounds": 30,
+      "file_upper_would_score_below_.99": 26
+    },
+    "Open shop scheduling": {
+      "held_out": 30,
+      "distinct_bounds": 30,
+      "file_upper_would_score_below_.99": 27
+    }
+  },
+  "historical": {
+    "file_tree_changes": [
+      {
+        "earlier_files": 755,
+        "later_files": 755,
+        "changed_common_configs": [
+          "Packing unequal circles area/config.py"
+        ],
+        "added_MIS_validation_graphs": 0
+      },
+      {
+        "earlier_files": 755,
+        "later_files": 856,
+        "changed_common_configs": [
+          "Assignment problem/config.py"
+        ],
+        "added_MIS_validation_graphs": 100
+      }
+    ],
+    "identical_raw_files_in_area_variant": {
+      "Packing unequal circles": 4,
+      "Packing unequal rectangles and squares": 6
+    },
+    "april_circle_area_test_files": 0,
+    "assignment_2x_reference_normalized_april_current": [
+      2.0,
+      0.5
+    ]
+  }
+}

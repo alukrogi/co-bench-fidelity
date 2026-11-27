@@ -1,0 +1,24 @@
+{
+  "revision": "2f6620ba5cc8d80d6fefc121b5ee2c4dcec29f33",
+  "funsearch": {
+    "distinct_profiles": 4,
+    "registered_clusters": 3,
+    "prompt_exemplars_in_100_draws": [
+      [
+        "C",
+        "D"
+      ]
+    ]
+  },
+  "mcts_ahd": {
+    "evaluated_candidates": 64,
+    "fixture_model_calls": 128,
+    "operator_counts": {
+      "e1": 6,
+      "e2": 57,
+      "i1": 1
+    },
+    "e2_prompts_omitting_selected_tree_parent": 47,
+    "step_5_after_four_zero_scores": "ZeroDivisionError"
+  }
+}
